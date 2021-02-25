@@ -1,0 +1,17 @@
+class Main {
+
+  public static void main(String[] args) {
+  rocketCountDown(14);
+  }
+  public static void rocketCountDown (int c) {
+    if(c==0) {
+      System.out.println("Lift off");
+    }else{
+      System.out.println(c);
+      c--;
+      rocketCountDown(c);
+    }
+  }
+
+  // this is going to be spaceX's rocket launch
+}
